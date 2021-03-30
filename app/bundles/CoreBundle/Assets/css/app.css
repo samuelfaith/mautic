@@ -1110,6 +1110,9 @@ h6,
   background-color: inherit;
   border-radius: 0;
 }
+
+.page-header h3 {font-size:32px; font-weight: 700; color: #5a9bd4;}
+
 .container .page-header {
   margin: -15px -15px 15px -15px;
 }
@@ -1885,15 +1888,15 @@ ul.dropdown-menu-form {
   font-size: 10px;
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
 }
-.mautic-brand {
+.xperx-brand {
   display: block;
   height: 60px;
-  padding-left: 35px;
+  padding-left: 80px;
   padding-right: 32px;
   width: 100%;
   overflow: hidden;
 }
-.mautic-brand.pull-left {
+.xperx-brand.pull-left {
   width: 75%;
 }
 .mautic-brand > svg.mautic-logo-figure {
