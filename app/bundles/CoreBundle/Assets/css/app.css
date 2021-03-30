@@ -398,11 +398,11 @@ body > #app-wrapper {
   bottom: 0;
 }
 .app-sidebar.sidebar-left {
-  width: 230px;
+  width: 320px;
   left: -230px;
-  background-color: #1d232b;
-  box-shadow: inset -1px 0 0 0 rgba(0, 0, 0, 0.05);
-  color: rgba(255, 255, 255, 0.55);
+  background-color: #5a9bd4;
+  box-shadow: none;
+  color: #fff;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -412,8 +412,8 @@ body > #app-wrapper {
   -webkit-transition: width 0.3s ease;
   -o-transition: width 0.3s ease;
   transition: width 0.3s ease;
-  width: 230px;
-  background-color: #4E5D9D;
+  width: 320px;
+  background-color: inherit;
 }
 .app-sidebar.sidebar-left .sidebar-header > .mautic-brand > .mautic-logo-text {
   opacity: 1;
@@ -436,27 +436,27 @@ body > #app-wrapper {
   right: 0;
   left: 50px;
   bottom: 0;
-  border-bottom: 1px solid #202830;
+  border-bottom: none;
 }
 .app-sidebar.sidebar-left .nav-sidebar > .nav > li > a {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.75);
 }
 .app-sidebar.sidebar-left .nav-sidebar > .nav > li > a:hover,
 .app-sidebar.sidebar-left .nav-sidebar > .nav > li > a:focus {
-  background-color: #1d232b;
-  color: rgba(255, 255, 255, 0.75);
+  background-color: #5a9bd4;
+  color: #fff;
 }
 .app-sidebar.sidebar-left .nav-sidebar > .nav > li.active > a,
 .app-sidebar.sidebar-left .nav-sidebar > .nav > li.open > a {
-  background-color: #1d232b;
-  color: rgba(255, 255, 255, 0.75);
+  background-color: #5a9bd4;
+  color: #fff;
 }
 .app-sidebar.sidebar-left .nav-sidebar > .nav > li.active > .nav-submenu,
 .app-sidebar.sidebar-left .nav-sidebar > .nav > li.open > .nav-submenu {
-  background-color: #171c22;
+  background-color: #5a9bd4;
 }
 .app-sidebar.sidebar-left .nav-sidebar > .nav > li > .nav-submenu {
-  background-color: #1a2026;
+  background-color: #5a9bd4;
 }
 .app-sidebar.sidebar-left .nav-sidebar > .nav > li > .nav-submenu:after {
   background-color: #212831;
@@ -484,22 +484,22 @@ body > #app-wrapper {
 }
 .app-sidebar.sidebar-left .nav.sidebar-left-dark,
 .app-sidebar.sidebar-left .nav.sidebar-left-dark > li > a:hover {
-  background: #0c0f12;
+  background: inherit;
 }
 .app-sidebar.sidebar-right {
   width: 230px;
   right: -230px;
-  background-color: #1d232b;
+  background-color: #5a9bd4;
   box-shadow: inset 1px 0 0 0 rgba(0, 0, 0, 0.05);
-  color: rgba(255, 255, 255, 0.55);
+  color: #fff;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .app-sidebar.sidebar-right .sidebar-header,
 .app-sidebar.sidebar-right .sidebar-footer {
-  width: 230px;
-  background-color: #232b34;
+  width: 320px;
+  background-color: inherit;
 }
 .app-sidebar.sidebar-right .sidebar-content {
   padding-left: 1px;
@@ -511,14 +511,14 @@ body > #app-wrapper {
   right: 0;
   left: 50px;
   bottom: 0;
-  border-bottom: 1px solid #202830;
+  border-bottom: none;
 }
 .app-sidebar.sidebar-right .nav-sidebar > .nav > li > a {
   color: rgba(255, 255, 255, 0.5);
 }
 .app-sidebar.sidebar-right .nav-sidebar > .nav > li > a:hover,
 .app-sidebar.sidebar-right .nav-sidebar > .nav > li > a:focus {
-  background-color: #1d232b;
+  background-color: inherit;
   color: rgba(255, 255, 255, 0.75);
 }
 .app-sidebar.sidebar-right .nav-sidebar > .nav > li.active > a,
@@ -629,7 +629,7 @@ body > #app-wrapper {
 }
 .app-sidebar .nav-sidebar > .nav > li > a {
   overflow: hidden;
-  padding: 12px 20px;
+  padding: 16px 20px;
   -webkit-transition: all 0.15s ease;
   -o-transition: all 0.15s ease;
   transition: all 0.15s ease;
@@ -646,8 +646,9 @@ body > #app-wrapper {
 }
 .app-sidebar .nav-sidebar > .nav > li > a .icon {
   font-weight: normal;
-  font-size: 14px;
-  min-width: 26px;
+  font-size: 32px;
+  min-width: 32px;
+  margin-right: 32px;
   display: block;
 }
 .app-sidebar .nav-sidebar > .nav > li > a .arrow {
@@ -670,7 +671,7 @@ body > #app-wrapper {
 }
 .app-sidebar .nav-sidebar > .nav > li.open > a .icon,
 .app-sidebar .nav-sidebar > .nav > li.active > a .icon {
-  color: #FDB933;
+  color: #fff;
 }
 .app-sidebar .nav-sidebar > .nav > li > .nav-submenu {
   position: relative;
@@ -728,19 +729,19 @@ body > #app-wrapper {
     left: 0;
   }
   .app-sidebar.sidebar-left ~ #app-header.navbar {
-    left: 230px;
+    left: 320px;
   }
   .app-sidebar.sidebar-left ~ #app-content {
-    margin-left: 230px;
+    margin-left: 320px;
   }
   .sidebar-left-collapse .app-sidebar.sidebar-left ~ #app-content {
-    margin-left: 60px;
+    margin-left: 80px;
   }
   .app-sidebar.sidebar-left ~ #app-footer {
-    margin-left: 230px;
+    margin-left: 320px;
   }
   .sidebar-left-collapse .app-sidebar.sidebar-left ~ #app-footer {
-    margin-left: 60px;
+    margin-left: 80px;
   }
   .sidebar-minimized .app-sidebar.sidebar-left {
     width: 60px;
