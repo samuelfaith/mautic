@@ -28,9 +28,11 @@
 
 }
 .dashboard-widgets .card {
-    margin: 5px;
-    background: #FEFEFE;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 8px;
+    background: #fff;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.16);
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -48,6 +50,13 @@
     transition-timing-function: linear;
     position: relative;
 }
+
+.dashboard-widgets .card:hover {
+    -webkit-transform: translate(0,-6px);
+    -ms-transform: translate(0,-6px);
+    transform: translate(0,-6px);
+}
+
 .dashboard-widgets .card-header h4 {
     padding: 10px 15px;
     cursor: -moz-grab;
